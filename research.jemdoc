@@ -1,0 +1,30 @@
+# jemdoc: menu{MENU}{research.html}, showsource
+= Research
+
+#[http://yianyin.net/ Yian Yin] ([yianyin@hotmail.com])
+~~
+{}{img_left}{wordle-long.png}{wordle}{1000}{258}
+~~
+== Computational social science
+
+My research takes a multidisciplinary approach to quantify patterns of different aspects of science and technology. Currently I mainly focus on two interconnected lines of inquiry: At the macroscopic level, I leverage techniques from network science and artificial intelligence to study the growth, evolution, and impact of /*science as a complex system*/. Starting from microscopic efforts in modeling individuals behavior in science, I also wish to intergrate tools from social, biological and computational sciences to advance our understanding of the /*patterns underlying successes and failures*/ in general human activities, within and beyond innovation domains.
+
+== Projects
+
+- *Nobel laureates in science revisited*\n
+Science functions as a highly heterogeneous system, where a large part of achievements is contributed by a small fraction of elite scientists. Here, by linking information from different sources we assemble a comprehensive dataset for career trajectories of Nobel prizes winners and perform extensive analyses concerning their patterns of productivity, collaboration, and impact.\n
+
+- *Structure and dynamics of package ecosystems*\n
+Current programming languages are often fueled by growing bodies of functioning packages, we relatively have little experience of dysfunctioning packages. To fill this gap, we leverage availability of large scale-datasets from code repositories to explore the patterns underlying development of package ecosystems.
+
+- *Understanding successes and failures in individual careers*\n
+Success is often preceded by failures, but little is known about statistical signatures for the emergence of success. Given its broad impact on individual careers and clear implications for innovation policy, here we study the quantitative patterns characterizing the successes and failures from large-scale datasets.
+
+- *The time dimension of science*\n
+A central question in science of science concerns how time affects citations. However, we lack systematic answers to this simple yet fundamental question. Here we developed a new theoretical framework that not only allows us to connect existing approaches through precise mathematical relationships, but also helps us reconcile the interplay between temporal decay of citations and the growth of science.
+
+- *Information diffusion in network communities*\n
+Community structure plays a fundamental role in complex networks, while our quantitive understanding of how information spreads across communities remains limited. Here, we develop a model connecting community structure, node centrality and structural holes, which have always been pursued as separate lines of inquiry. The model also leads to a scalable algorithm for detecting overlapping communities.
+
+
+
