@@ -4,7 +4,11 @@
 [https://scholar.google.com/citations?user=CkoqBpwAAAAJ&hl/ Google Scholar Page]\n 
 [https://academic.microsoft.com/\#/detail/2641655433/  Microsoft Academic Page]
 
-
+== Work in Progress
+- [https://arxiv.org/abs/1903.07562 *Quantifying dynamics of failure across science, startups, and security*]\n
+Yian Yin, Yang Wang, James A. Evans and Dashun Wang\n
+Under review at /Nature/.\n
+Media coverage: [https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ *MIT Technology Review*], [https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html *Inc.*], [http://hostingtechvn.com/possible-use-analytical-data-fail-succeed/ *HostingTechVN*]
 
 == Journal Publications
 ~~~
@@ -45,12 +49,3 @@ Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
  {{<font size=-1.5>}}A central question in science of science concerns how time affects citations. Despite the long-standing interests and its broad impact, we lack systematic answers to this simple yet fundamental question. By reviewing and classifying prior studies for the past 50 years, we find a significant lack of consensus in the literature, primarily due to the coexistence of retrospective and prospective approaches to measuring citation age distributions. These two approaches have been pursued in parallel, lacking any known connections between the two. Here we developed a new theoretical framework that not only allows us to connect the two approaches through precise mathematical relationships, it also helps us reconcile the interplay between temporal decay of citations and the growth of science, helping us uncover new functional forms characterizing citation age distributions. We find retrospective distribution follows a lognormal distribution with exponential cutoff, while prospective distribution is governed by the interplay between a lognormal distribution and the growth in the number of references. Most interestingly, the two approaches can be connected once rescaled by the growth of publications and citations. We further validate our framework using both large-scale citation datasets and analytical models capturing citation dynamics. Together this paper presents a comprehensive analysis of the time dimension of science, representing a new empirical and theoretical basis for all future studies in this area.
 {{</font>}}\n
 ~~~
-
-== Work in Progress
-- [https://arxiv.org/abs/1903.07562 *Quantifying dynamics of failure across science, startups, and security*]\n
-Yian Yin, Yang Wang, James A. Evans and Dashun Wang\n
-Under review at /Nature/.\n
-Media coverage: [https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ *MIT Technology Review*], [https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html *Inc.*], [http://hostingtechvn.com/possible-use-analytical-data-fail-succeed/ *HostingTechVN*]
-
-- [publication.html *Nobel laureates in science revisited: Patterns of productivity, impact and collaborations*]\n
-Jichao Li, Yian Yin, Santo Fortunato, Brian Uzzi and Dashun Wang\n
