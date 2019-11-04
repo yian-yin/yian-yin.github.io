@@ -1,0 +1,51 @@
+# jemdoc: menu{MENU}{publication.html}, showsource, nodefaultcss, addcss{publication.css}
+== Publications
+
+[https://scholar.google.com/citations?user=CkoqBpwAAAAJ&hl/ Google Scholar Page]\n 
+[https://academic.microsoft.com/\#/detail/2641655433/  Microsoft Academic Page]
+
+== Work in Progress
+- [https://arxiv.org/abs/1903.07562 *Quantifying dynamics of failure across science, startups, and security*]\n
+Yian Yin, Yang Wang, James A. Evans and Dashun Wang\n
+Under review\n
+Media coverage: [https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ *MIT Technology Review*], [https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html *Inc.*]
+
+== Journal Publications
+~~~
+- *Nobel laureates are almost the same as us*\n
+Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
+/Nature Reviews Physics/, Apr 2019.\n
+[https://doi.org/10.1038/s42254-019-0057-z \[DOI\]]
+~~~
+
+~~~
+{}{img_left}{li2019_nrp.png}{li2019_nrp}{480px}{192px}{}
+{{<font size=-1.5>}} Quantitative studies of Nobel laureates’ careers have predominantly focused on the prize-winning work alone. To test if there are indeed systematic differences between the careers of Nobel laureates and ordinary scientists, we studied a unique dataset of entire career histories for nearly all Nobel laureates in physics, chemistry and physiology or medicine from 1900 to 2016 (545 out of 590 laureates, 92.4%). By testing the burst of most-cited papers and dynamics of team sizes, we find after removing the prize-winning papers, the career of Nobel laureates and ordinary scientists follow the same patterns. Together, iur analysis show that apart from their prize-winning work, the careers of Nobel laureates follow the same patterns as those of the majority of scientists.
+{{</font>}}\n
+~~~
+
+~~~
+- *A dataset of publication records for Nobel laureates*\n
+Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
+/Scientific Data/, 6(33), Apr 2019.\n
+[https://doi.org/10.1038/s41597-019-0033-6 \[DOI\]] [https://doi.org/10.7910/DVN/6NJ5RN \[Dataset\]]
+~~~
+
+~~~
+{}{img_left}{li2019_scidata.png}{li2019_scidata}{480px}{336px}{}
+ {{<font size=-1.5>}}A central question in the science of science concerns how to develop a quantitative understanding of the evolution and impact of individual careers. Over the course of history, a relatively small fraction of individuals have made disproportionate, profound, and lasting impacts on science and society. Despite a long-standing interest in the careers of scientific elites across diverse disciplines, it remains difficult to collect large-scale career histories that could serve as training sets for systematic empirical and theoretical studies. Here, by combining unstructured data collected from CVs, university websites, and Wikipedia, together with the publication and citation database from Microsoft Academic Graph (MAG), we reconstructed publication histories of nearly all Nobel prize winners from the past century, through both manual curation and algorithmic disambiguation procedures. Data validation shows that the collected dataset presents among the most comprehensive collection of publication records for Nobel laureates currently available. As our quantitative understanding of science deepens, this dataset is expected to have increasing value. It will not only allow us to quantitatively probe novel patterns of productivity, collaboration, and impact governing successful scientific careers, it may also help us unearth the fundamental principles underlying creativity and the genesis of scientific breakthroughs.
+{{</font>}}\n
+~~~
+
+~~~
+- *The time dimension of science: Connecting the past to the future*\n
+*Yian Yin* and Dashun Wang\n
+/Journal of Informetrics/, 11(2): 608–621, May 2017.\n
+[https://doi.org/10.1016/j.joi.2017.04.002 \[DOI\]] [https://arxiv.org/abs/1704.04657 \[arXiv\]]  [yin2017_joi_si.pdf \[Supplementary Information\]]
+~~~
+
+~~~
+{}{img_left}{yin2017_joi.png}{yin2017_joi}{480px}{360px}{}
+ {{<font size=-1.5>}}A central question in science of science concerns how time affects citations. Despite the long-standing interests and its broad impact, we lack systematic answers to this simple yet fundamental question. By reviewing and classifying prior studies for the past 50 years, we find a significant lack of consensus in the literature, primarily due to the coexistence of retrospective and prospective approaches to measuring citation age distributions. These two approaches have been pursued in parallel, lacking any known connections between the two. Here we developed a new theoretical framework that not only allows us to connect the two approaches through precise mathematical relationships, it also helps us reconcile the interplay between temporal decay of citations and the growth of science, helping us uncover new functional forms characterizing citation age distributions. We find retrospective distribution follows a lognormal distribution with exponential cutoff, while prospective distribution is governed by the interplay between a lognormal distribution and the growth in the number of references. Most interestingly, the two approaches can be connected once rescaled by the growth of publications and citations. We further validate our framework using both large-scale citation datasets and analytical models capturing citation dynamics. Together this paper presents a comprehensive analysis of the time dimension of science, representing a new empirical and theoretical basis for all future studies in this area.
+{{</font>}}\n
+~~~
