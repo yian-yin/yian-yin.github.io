@@ -4,13 +4,35 @@
 [https://scholar.google.com/citations?user=CkoqBpwAAAAJ&hl/ Google Scholar Page]\n 
 [https://academic.microsoft.com/\#/detail/2641655433/  Microsoft Academic Page]
 
-== Work in Progress
-- [https://arxiv.org/abs/1903.07562 *Quantifying dynamics of failure across science, startups, and security*]\n
-Yian Yin, Yang Wang, James A. Evans and Dashun Wang\n
-Under review\n
-Media coverage: [https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ *MIT Technology Review*], [https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html *Inc.*]
-
 == Journal Publications
+~~~
+- *Scientific elite revisited: patterns of productivity, collaboration, authorship and impact
+*\n
+Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
+/Journal of the Royal Society Interface/, 17(165): 20200135, Apr 2020.\n
+[https://doi.org/10.1098/rsif.2020.0135 \[DOI\]]
+~~~
+
+~~~
+{}{img_left}{li2020.png}{li2020}{480px}{283px}{}
+{{<font size=-1.5>}} Throughout history, a relatively small number of individuals have made a profound and lasting impact on science and society. Despite long-standing, multi-disciplinary interests in understanding careers of elite scientists, there have been limited attempts for a quantitative, career-level analysis. Here, we leverage a comprehensive dataset we assembled, allowing us to trace the entire career histories of nearly all Nobel laureates in physics, chemistry, and physiology or medicine over the past century. We find that, although Nobel laureates were energetic producers from the outset, producing works that garner unusually high impact, their careers before winning the prize follow relatively similar patterns to those of ordinary scientists, being characterized by hot streaks and increasing reliance on collaborations. We also uncovered notable variations along their careers, often associated with the Nobel Prize, including shifting coauthorship structure in the prize-winning work, and a significant but temporary dip in the impact of work they produce after winning the Nobel Prize. Together, these results document quantitative patterns governing the careers of scientific elites, offering an empirical basis for a deeper understanding of the hallmarks of exceptional careers in science.
+{{</font>}}\n
+~~~
+
+~~~
+- *Quantifying the dynamics of failure across science, startups, and security*\n
+*Yian Yin*, Yang Wang, James A. Evans and Dashun Wang\n
+/Nature/, 575(7781): 190-194, Oct 2019.\n
+[https://www.nature.com/articles/s41586-019-1725-y \[DOI\]] [https://www.yianyin.net/quantifyFailure/ \[Project page\]]\n
+Media coverage: [https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ *MIT Technology Review*], [https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html *Inc.*], [https://www.scientificamerican.com/article/failure-found-to-be-an-essential-prerequisite-for-success/ *Scientific American*], [https://www.sciencedaily.com/releases/2019/10/191030151436.htm *Science Daily*], [https://phys.org/news/2019-10-failure-prognosis-science-failures-ultimately.html" *Phys.org*], [https://hbr.org/podcast/2019/12/the-tipping-point-between-failure-and-success *Harvard Business Review*], [https://www.fastcompany.com/90431157/why-failing-fast-is-critical-if-you-want-to-eventually-win?partner=feedburner&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed\%3A+fastcompany\%2Fheadlines+\%28Fast+Company\%29 *Fast company*], [https://www.fastcompany.com/90451983/science-reveals-the-tipping-point-between-success-and-failure *Fast company*], [https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32943-5/fulltext *The Lancent*], [https://www.washingtonpost.com/sports/nfl/the-lasting-lesson-of-this-super-bowl-failure-is-necessary/2020/02/04/d566a618-4754-11ea-ab15-b5df3261b710_story.html *The Washington Post*], [https://www.forbes.com\/sites\/jasonwingard\/202\/02\/21\/dont-fail-fast--fail-smart\/\#1f3965351b3a *Forbes*]\n
+~~~
+
+~~~
+{}{img_left}{yin2019.png}{yin2019}{480px}{379px}{}
+{{<font size=-1.5>}} Human achievements are often preceded by repeated attempts that fail, but little is known about the mechanisms that govern the dynamics of failure. Here, building on previous research relating to innovation, human dynamics and learning, we develop a simple one-parameter model that mimics how successful future attempts build on past efforts. Solving this model analytically suggests that a phase transition separates the dynamics of failure into regions of progression or stagnation and predicts that, near the critical threshold, agents who share similar characteristics and learning strategies may experience fundamentally different outcomes following failures. Above the critical point, agents exploit incremental refinements to systematically advance towards success, whereas below it, they explore disjoint opportunities without a pattern of improvement. The model makes several empirically testable predictions, demonstrating that those who eventually succeed and those who do not may initially appear similar, but can be characterized by fundamentally distinct failure dynamics in terms of the efficiency and quality associated with each subsequent attempt. We collected large-scale data from three disparate domains and traced repeated attempts by investigators to obtain National Institutes of Health (NIH) grants to fund their research, innovators to successfully exit their startup ventures, and terrorist organizations to claim casualties in violent attacks. We find broadly consistent empirical support across all three domains, which systematically verifies each prediction of our model. Together, our findings unveil identifiable yet previously unknown early signals that enable us to identify failure dynamics that will lead ultimately to success or failure. Given the ubiquitous nature of failure and the paucity of quantitative approaches to understand it, these results represent an initial step towards the deeper understanding of the complex dynamics underlying failure.
+{{</font>}}\n
+~~~
+
 ~~~
 - *Nobel laureates are almost the same as us*\n
 Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
