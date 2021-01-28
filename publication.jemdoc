@@ -1,10 +1,82 @@
 # jemdoc: menu{MENU}{publication.html}, showsource, nodefaultcss, addcss{publication.css}
-== Publications
+== \nPublications\n
 
 [https://scholar.google.com/citations?user=CkoqBpwAAAAJ&hl/ Google Scholar Page]\n 
-[https://academic.microsoft.com/\#/detail/2641655433/  Microsoft Academic Page]
+[https://orcid.org/0000-0003-3018-4544 ORCID: 0000-0003-3018-4544]\n
 
-== Journal Publications
+== Most representative publications
+~~~
+- *Coevolution of policy and science during the pandemic*\n
+*Yian Yin*, Jian Gao, Benjamin F. Jones, Dashun Wang\n
+/*Science*/, 371(6525): 128-130, Jan 2021.\n
+[https://doi.org/10.1126/science.abe3084 \[DOI\]] [https://kellogg-cssi.github.io/covid_policy_science/ \[Project page\]]\n
+Media coverage: 
+[https://www.the-scientist.com/news-opinion/who-leads-in-using-solid-science-to-draft-covid-19-policy-study-68327 The Scientist], [https://www.eurekalert.org/pub_releases/2021-01/aaft-pdh010421.php EurekAlert], [https://insight.kellogg.northwestern.edu/article/covid-science-policy Kellogg Insight], [https://thetyee.ca/News/2021/01/12/Science-Journals-Immunity/ The Tyee], [https://scienmag.com/policymakers-draw-heavily-from-highly-cited-covid-19-science// ScienMag], [https://www.labmanager.com/news/policymakers-draw-heavily-from-highly-cited-covid-19-science-24837 Lab Manager]\n
+~~~
+
+~~~
+{}{img_left}{yin2021.png}{yin2021}{480px}{240px}{}
+{{<font size=-1.>}} Disconnects between science and policy are a long-standing concern. Yet, our systematic understanding of the use of science in policy remains limited, partly because of the difficulty in reliably tracing the coevolution of policy and science at a large, global scale. Today, the world faces a common emergency in the COVID-19 pandemic, which presents a dynamic, uncertain, yet extraordinarily consequential policy environment across the globe. We combined two large-scale databases that capture policy and science and their interactions, allowing us to examine the coevolution of policy and science.\n\nOur analysis suggests that many policy documents in the COVID-19 pandemic substantially access recent, peer-reviewed, and high-impact science. And policy documents that cite science are especially highly cited within the policy domain. At the same time, there is a heterogeneity in the use of science across policy-making institutions. The tendency for policy documents to cite science appears mostly concentrated within intergovernmental organizations (IGOs), such as the World Health Organization (WHO), and much less so in national governments, which consume science largely indirectly through the IGOs. This close coevolution between policy and science offers a useful indication that a key link is operating, but it has not been a sufficient condition for effectiveness in containing the pandemic.
+{{</font>}}\n
+~~~
+
+
+~~~
+- *Quantifying the dynamics of failure across science, startups, and security*\n
+*Yian Yin*, Yang Wang, James A. Evans and Dashun Wang\n
+/*Nature*/, 575(7781): 190-194, Oct 2019.\n
+[https://doi.org/10.1038/s41586-019-1725-y \[DOI\]] [https://www.yianyin.net/quantifyFailure/ \[Project page\]]\n
+Media Coverage: [https://www.washingtonpost.com/sports/nfl/the-lasting-lesson-of-this-super-bowl-failure-is-necessary/2020/02/04/d566a618-4754-11ea-ab15-b5df3261b710_story.html Washington Post], 
+[https://www.forbes.com\/sites\/jasonwingard\/202\/02\/21\/dont-fail-fast--fail-smart\/\#1f3965351b3a Forbes], 
+[https://www.scientificamerican.com/article/failure-found-to-be-an-essential-prerequisite-for-success/ Scientific American], 
+[https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ MIT Technology Review], 
+[https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32943-5/fulltext Lancent], 
+[https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html Inc.], 
+[https://www.fastcompany.com/90431157/why-failing-fast-is-critical-if-you-want-to-eventually-win?partner=feedburner&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed\%3A+fastcompany\%2Fheadlines+\%28Fast+Company\%29 Fast company], [https://hbr.org/podcast/2019/12/the-tipping-point-between-failure-and-success Harvard Business Review], 
+[https://insight.kellogg.northwestern.edu/article/some-people-succeed-after-failing-others-flounder Kellogg Insights], 
+[https://www.sciencedaily.com/releases/2019/10/191030151436.htm Science Daily], [https://phys.org/news/2019-10-failure-prognosis-science-failures-ultimately.html" Phys.org], 
+[https://cacm.acm.org/opinion/articles/235855-how-the-data-mining-of-failure-could-teach-s-the-secrets-of-success/fulltext Communications of the ACM], 
+[https://www.labmanager.com/news/failure-prognosis-data-science-predicts-which-failures-will-ultimately-succeed-585 Lab Manager], [https://newsabode.com/researchers-find-diverging-paths-between-failure-and-success-after-first-setback/ News Adobe], [http://hostingtechvn.com/possible-use-analytical-data-fail-succeed/ HostingTech VN]
+\n
+~~~
+
+~~~
+{}{img_left}{yin2019.png}{yin2019}{480px}{379px}{}
+{{<font size=-1.>}} Human achievements are often preceded by repeated attempts that fail, but little is known about the mechanisms that govern the dynamics of failure. Here, building on previous research relating to innovation, human dynamics and learning, we develop a simple one-parameter model that mimics how successful future attempts build on past efforts. Solving this model analytically suggests that a phase transition separates the dynamics of failure into regions of progression or stagnation and predicts that, near the critical threshold, agents who share similar characteristics and learning strategies may experience fundamentally different outcomes following failures. Above the critical point, agents exploit incremental refinements to systematically advance towards success, whereas below it, they explore disjoint opportunities without a pattern of improvement. The model makes several empirically testable predictions, demonstrating that those who eventually succeed and those who do not may initially appear similar, but can be characterized by fundamentally distinct failure dynamics in terms of the efficiency and quality associated with each subsequent attempt.\n\nWe collected large-scale data from three disparate domains and traced repeated attempts by investigators to obtain National Institutes of Health (NIH) grants to fund their research, innovators to successfully exit their startup ventures, and terrorist organizations to claim casualties in violent attacks. We find broadly consistent empirical support across all three domains, which systematically verifies each prediction of our model. Together, our findings unveil identifiable yet previously unknown early signals that enable us to identify failure dynamics that will lead ultimately to success or failure. Given the ubiquitous nature of failure and the paucity of quantitative approaches to understand it, these results represent an initial step towards the deeper understanding of the complex dynamics underlying failure.
+{{</font>}}\n
+~~~
+
+
+~~~
+- *Unequal effects of the COVID-19 pandemic on scientists*\n
+Kyle R. Myers, Wei Yang Tham, *Yian Yin*, Nina Cohodes, Jerry G. Thursby, Marie C. Thursby, Peter Schiffer, Joseph T. Walsh, Karim R. Lakhani and Dashun Wang\n
+/*Nature Human Behaviour*/, 4(9): 880-883, Jul 2020.\n
+*Top 100 (27 out of 3.4M) Altmetric papers in 2020*\n
+[https://doi.org/10.1038/s41562-020-0921-y \[DOI\]] [https://kellogg-cssi.github.io/covid_survey/ \[Project page\]]\n
+Media coverage: 
+[https://www.forbes.com/sites/hbsworkingknowledge/2020/09/18/covids-surprising-toll-on-careers-of-women-scientists/ Forbes], [https://www.timeshighereducation.com/news/pandemic-lockdown-holding-back-female-academics-data-show Times Higher Education], [https://www.insidehighered.com/views/2020/08/05/research-ecosystem-has-undergone-complex-transformation-necessitating-multifaceted Insider Higher Ed], [https://www.scientificamerican.com/article/women-in-science-may-suffer-lasting-career-damage-from-covid-19/ Scientific American], [https://science.sciencemag.org/content/369/6504/609 Science], [https://science.thewire.in/the-sciences/covid-19-natural-sciences-social-sciences-research-methods-quality/ The Wire], [https://phys.org/news/2020-07-pandemic-disproportionately-affects-scientists-young.html Phys.org], [https://www.psychologytoday.com/za/blog/neuroscience-in-translation/202008/the-myth-covid-19-the-great-equalizer Psychology Today], [https://www.marketplace.org/2020/07/16/moms-are-reducing-work-hours-4-5-times-more-than-dads-during-pandemic/ Marketplace], [http://www.chemistryviews.org/details/news/11254993/The_Pandemic_Does_Not_Affect_All_Researchers_Equally.html Chemistry Views]\n
+~~~
+
+~~~
+{}{img_left}{Myers2020.png}{myers2020}{480px}{270px}{}
+{{<font size=-1.>}} The COVID-19 pandemic has undoubtedly disrupted the scientific enterprise. Policymakers and institutional leaders have already begun to respond to mitigate the impacts of the pandemic on researchers. However, we lack evidence on the nature and magnitude of the disruptions scientists are experiencing. To gain some insight into the extent of disruptions scientists are experiencing, we conducted a preliminary survey, which was distributed on 13 April 2020, approximately 1 month after the World Health Organization declared COVID-19 a pandemic. We reached out to US- and Europe-based scientists across a wide range of institutions, career stages and demographic backgrounds. Within a week, we received full responses from 4,535 faculty or Principal Investigators.\n\nResults of the survey highlight the sizable and heterogeneous ways the COVID-19 pandemic is affecting the scientific workforce. Scientists report a sharp decline in time spent on research on average, but there is substantial heterogeneity with a significant share reporting no changes or even increases. Some of this heterogeneity is due to field-specific differences, and some is due to gender. However, the largest disruptions are connected to a usually unobserved dimension: childcare, which can account for a significant fraction of gender differences. Amidst scarce evidence about the role of parenting in scientists’ work, these results could have important short- and longer-term effects on their careers, which institution leaders and funders need to address carefully.
+{{</font>}}\n
+~~~
+
+~~~
+- *Nobel laureates are almost the same as us*\n
+Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
+/*Nature Reviews Physics*/, Apr 2019.\n
+[https://doi.org/10.1038/s42254-019-0057-z \[DOI\]]
+~~~
+
+~~~
+{}{img_left}{li2019_nrp.png}{li2019_nrp}{480px}{192px}{}
+{{<font size=-1.>}} Quantitative studies of Nobel laureates’ careers have predominantly focused on the prize-winning work alone. To test if there are indeed systematic differences between the careers of Nobel laureates and ordinary scientists, we studied a unique dataset of entire career histories for nearly all Nobel laureates in physics, chemistry and physiology or medicine from 1900 to 2016 (545 out of 590 laureates, 92.4%).\n\nBy testing the burst of most-cited papers and dynamics of team sizes, we find after removing the prize-winning papers, the career of Nobel laureates and ordinary scientists follow the same patterns. Together, our analysis show that apart from their prize-winning work, the careers of Nobel laureates follow the same patterns as those of the majority of scientists.
+{{</font>}}\n
+~~~
+
+== Other publications
 ~~~
 - *Scientific elite revisited: patterns of productivity, collaboration, authorship and impact
 *\n
@@ -15,34 +87,7 @@ Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
 
 ~~~
 {}{img_left}{li2020.png}{li2020}{480px}{248px}{}
-{{<font size=-1.5>}} Throughout history, a relatively small number of individuals have made a profound and lasting impact on science and society. Despite long-standing, multi-disciplinary interests in understanding careers of elite scientists, there have been limited attempts for a quantitative, career-level analysis. Here, we leverage a comprehensive dataset we assembled, allowing us to trace the entire career histories of nearly all Nobel laureates in physics, chemistry, and physiology or medicine over the past century. We find that, although Nobel laureates were energetic producers from the outset, producing works that garner unusually high impact, their careers before winning the prize follow relatively similar patterns to those of ordinary scientists, being characterized by hot streaks and increasing reliance on collaborations. We also uncovered notable variations along their careers, often associated with the Nobel Prize, including shifting coauthorship structure in the prize-winning work, and a significant but temporary dip in the impact of work they produce after winning the Nobel Prize. Together, these results document quantitative patterns governing the careers of scientific elites, offering an empirical basis for a deeper understanding of the hallmarks of exceptional careers in science.
-{{</font>}}\n
-~~~
-
-~~~
-- *Quantifying the dynamics of failure across science, startups, and security*\n
-*Yian Yin*, Yang Wang, James A. Evans and Dashun Wang\n
-/Nature/, 575(7781): 190-194, Oct 2019.\n
-[https://www.nature.com/articles/s41586-019-1725-y \[DOI\]] [https://www.yianyin.net/quantifyFailure/ \[Project page\]]\n
-Media coverage: [https://www.technologyreview.com/s/613229/data-mining-reveals-the-hidden-secret-of-human-failure-and-how-to-turn-it-into-success/ *MIT Technology Review*], [https://www.inc.com/sean-wise/5-ways-to-avoid-startup-failure-by-increasing-your-teams-learning-speed.html *Inc.*], [https://www.scientificamerican.com/article/failure-found-to-be-an-essential-prerequisite-for-success/ *Scientific American*], [https://www.sciencedaily.com/releases/2019/10/191030151436.htm *Science Daily*], [https://phys.org/news/2019-10-failure-prognosis-science-failures-ultimately.html" *Phys.org*], [https://hbr.org/podcast/2019/12/the-tipping-point-between-failure-and-success *Harvard Business Review*], [https://www.fastcompany.com/90431157/why-failing-fast-is-critical-if-you-want-to-eventually-win?partner=feedburner&utm_source=feedburner&utm_medium=feed&utm_campaign=Feed\%3A+fastcompany\%2Fheadlines+\%28Fast+Company\%29 *Fast company*], [https://www.fastcompany.com/90451983/science-reveals-the-tipping-point-between-success-and-failure *Fast company*], [https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(19)32943-5/fulltext *The Lancent*], [https://www.washingtonpost.com/sports/nfl/the-lasting-lesson-of-this-super-bowl-failure-is-necessary/2020/02/04/d566a618-4754-11ea-ab15-b5df3261b710_story.html *The Washington Post*], [https://www.forbes.com\/sites\/jasonwingard\/202\/02\/21\/dont-fail-fast--fail-smart\/\#1f3965351b3a *Forbes*]\n
-~~~
-
-~~~
-{}{img_left}{yin2019.png}{yin2019}{480px}{379px}{}
-{{<font size=-1.5>}} Human achievements are often preceded by repeated attempts that fail, but little is known about the mechanisms that govern the dynamics of failure. Here, building on previous research relating to innovation, human dynamics and learning, we develop a simple one-parameter model that mimics how successful future attempts build on past efforts. Solving this model analytically suggests that a phase transition separates the dynamics of failure into regions of progression or stagnation and predicts that, near the critical threshold, agents who share similar characteristics and learning strategies may experience fundamentally different outcomes following failures. Above the critical point, agents exploit incremental refinements to systematically advance towards success, whereas below it, they explore disjoint opportunities without a pattern of improvement. The model makes several empirically testable predictions, demonstrating that those who eventually succeed and those who do not may initially appear similar, but can be characterized by fundamentally distinct failure dynamics in terms of the efficiency and quality associated with each subsequent attempt. We collected large-scale data from three disparate domains and traced repeated attempts by investigators to obtain National Institutes of Health (NIH) grants to fund their research, innovators to successfully exit their startup ventures, and terrorist organizations to claim casualties in violent attacks. We find broadly consistent empirical support across all three domains, which systematically verifies each prediction of our model. Together, our findings unveil identifiable yet previously unknown early signals that enable us to identify failure dynamics that will lead ultimately to success or failure. Given the ubiquitous nature of failure and the paucity of quantitative approaches to understand it, these results represent an initial step towards the deeper understanding of the complex dynamics underlying failure.
-{{</font>}}\n
-~~~
-
-~~~
-- *Nobel laureates are almost the same as us*\n
-Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
-/Nature Reviews Physics/, Apr 2019.\n
-[https://doi.org/10.1038/s42254-019-0057-z \[DOI\]]
-~~~
-
-~~~
-{}{img_left}{li2019_nrp.png}{li2019_nrp}{480px}{192px}{}
-{{<font size=-1.5>}} Quantitative studies of Nobel laureates’ careers have predominantly focused on the prize-winning work alone. To test if there are indeed systematic differences between the careers of Nobel laureates and ordinary scientists, we studied a unique dataset of entire career histories for nearly all Nobel laureates in physics, chemistry and physiology or medicine from 1900 to 2016 (545 out of 590 laureates, 92.4%). By testing the burst of most-cited papers and dynamics of team sizes, we find after removing the prize-winning papers, the career of Nobel laureates and ordinary scientists follow the same patterns. Together, iur analysis show that apart from their prize-winning work, the careers of Nobel laureates follow the same patterns as those of the majority of scientists.
+{{<font size=-1.>}} Throughout history, a relatively small number of individuals have made a profound and lasting impact on science and society. Despite long-standing, multi-disciplinary interests in understanding careers of elite scientists, there have been limited attempts for a quantitative, career-level analysis. Here, we leverage a comprehensive dataset we assembled, allowing us to trace the entire career histories of nearly all Nobel laureates in physics, chemistry, and physiology or medicine over the past century. We find that, although Nobel laureates were energetic producers from the outset, producing works that garner unusually high impact, their careers before winning the prize follow relatively similar patterns to those of ordinary scientists, being characterized by hot streaks and increasing reliance on collaborations. We also uncovered notable variations along their careers, often associated with the Nobel Prize, including shifting coauthorship structure in the prize-winning work, and a significant but temporary dip in the impact of work they produce after winning the Nobel Prize. Together, these results document quantitative patterns governing the careers of scientific elites, offering an empirical basis for a deeper understanding of the hallmarks of exceptional careers in science.
 {{</font>}}\n
 ~~~
 
@@ -55,7 +100,7 @@ Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
 
 ~~~
 {}{img_left}{li2019_scidata.png}{li2019_scidata}{480px}{336px}{}
- {{<font size=-1.5>}}A central question in the science of science concerns how to develop a quantitative understanding of the evolution and impact of individual careers. Over the course of history, a relatively small fraction of individuals have made disproportionate, profound, and lasting impacts on science and society. Despite a long-standing interest in the careers of scientific elites across diverse disciplines, it remains difficult to collect large-scale career histories that could serve as training sets for systematic empirical and theoretical studies. Here, by combining unstructured data collected from CVs, university websites, and Wikipedia, together with the publication and citation database from Microsoft Academic Graph (MAG), we reconstructed publication histories of nearly all Nobel prize winners from the past century, through both manual curation and algorithmic disambiguation procedures. Data validation shows that the collected dataset presents among the most comprehensive collection of publication records for Nobel laureates currently available. As our quantitative understanding of science deepens, this dataset is expected to have increasing value. It will not only allow us to quantitatively probe novel patterns of productivity, collaboration, and impact governing successful scientific careers, it may also help us unearth the fundamental principles underlying creativity and the genesis of scientific breakthroughs.
+ {{<font size=-1.>}}A central question in the science of science concerns how to develop a quantitative understanding of the evolution and impact of individual careers. Over the course of history, a relatively small fraction of individuals have made disproportionate, profound, and lasting impacts on science and society. Despite a long-standing interest in the careers of scientific elites across diverse disciplines, it remains difficult to collect large-scale career histories that could serve as training sets for systematic empirical and theoretical studies. Here, by combining unstructured data collected from CVs, university websites, and Wikipedia, together with the publication and citation database from Microsoft Academic Graph (MAG), we reconstructed publication histories of nearly all Nobel prize winners from the past century, through both manual curation and algorithmic disambiguation procedures. Data validation shows that the collected dataset presents among the most comprehensive collection of publication records for Nobel laureates currently available. As our quantitative understanding of science deepens, this dataset is expected to have increasing value. It will not only allow us to quantitatively probe novel patterns of productivity, collaboration, and impact governing successful scientific careers, it may also help us unearth the fundamental principles underlying creativity and the genesis of scientific breakthroughs.
 {{</font>}}\n
 ~~~
 
@@ -68,6 +113,6 @@ Jichao Li, *Yian Yin*, Santo Fortunato and Dashun Wang\n
 
 ~~~
 {}{img_left}{yin2017_joi.png}{yin2017_joi}{480px}{360px}{}
- {{<font size=-1.5>}}A central question in science of science concerns how time affects citations. Despite the long-standing interests and its broad impact, we lack systematic answers to this simple yet fundamental question. By reviewing and classifying prior studies for the past 50 years, we find a significant lack of consensus in the literature, primarily due to the coexistence of retrospective and prospective approaches to measuring citation age distributions. These two approaches have been pursued in parallel, lacking any known connections between the two. Here we developed a new theoretical framework that not only allows us to connect the two approaches through precise mathematical relationships, it also helps us reconcile the interplay between temporal decay of citations and the growth of science, helping us uncover new functional forms characterizing citation age distributions. We find retrospective distribution follows a lognormal distribution with exponential cutoff, while prospective distribution is governed by the interplay between a lognormal distribution and the growth in the number of references. Most interestingly, the two approaches can be connected once rescaled by the growth of publications and citations. We further validate our framework using both large-scale citation datasets and analytical models capturing citation dynamics. Together this paper presents a comprehensive analysis of the time dimension of science, representing a new empirical and theoretical basis for all future studies in this area.
+ {{<font size=-1.>}}A central question in science of science concerns how time affects citations. Despite the long-standing interests and its broad impact, we lack systematic answers to this simple yet fundamental question. By reviewing and classifying prior studies for the past 50 years, we find a significant lack of consensus in the literature, primarily due to the coexistence of retrospective and prospective approaches to measuring citation age distributions. These two approaches have been pursued in parallel, lacking any known connections between the two. Here we developed a new theoretical framework that not only allows us to connect the two approaches through precise mathematical relationships, it also helps us reconcile the interplay between temporal decay of citations and the growth of science, helping us uncover new functional forms characterizing citation age distributions. We find retrospective distribution follows a lognormal distribution with exponential cutoff, while prospective distribution is governed by the interplay between a lognormal distribution and the growth in the number of references. Most interestingly, the two approaches can be connected once rescaled by the growth of publications and citations. We further validate our framework using both large-scale citation datasets and analytical models capturing citation dynamics. Together this paper presents a comprehensive analysis of the time dimension of science, representing a new empirical and theoretical basis for all future studies in this area.
 {{</font>}}\n
 ~~~

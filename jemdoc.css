@@ -15,16 +15,16 @@ body {
 }
 
 #layout-menu {
-	background: #f6f6f6;
+	background: #faf9fc;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
-	font-size: 1.0em;
+	font-size: 1.1em;
 	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
-	width: 80px;
+	width: 150px;
 
 }
 
@@ -46,7 +46,7 @@ body {
 }
 
 #layout-menu a {
-	line-height: 1.5em;
+	line-height: 2em;
 	margin-left: 0.5em;
 }
 
@@ -83,9 +83,10 @@ a:hover {
 div.menu-category {
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
-	padding-top: 0.2em;
-	padding-bottom: 0.1em;
+	padding-top: 0.6em;
+	padding-bottom: 0.5em;
 	font-weight: bold;
+	font-size: 1.2em;
 }
 
 div.menu-item {
@@ -254,7 +255,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #fffdfb;
+	background: #faf9fc;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
