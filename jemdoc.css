@@ -19,12 +19,12 @@ body {
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
-	padding-right: 8px;
+	padding-right: 28px;
 	font-size: 1.1em;
 	white-space: nowrap;
 	text-align: left;
 	vertical-align: top;
-	width: 150px;
+	width: auto;
 
 }
 
@@ -162,20 +162,15 @@ pre {
 }
 
 div#footer {
-	font-size: small;
-	border-top: 1px solid #c0c0c0;
-	padding-top: 0.1em;
-	margin-top: 4.0em;
-	color: #c0c0c0;
+	display:none
 }
 
 div#footer a {
-	color: #80a0b0;
+	display:none
 }
 
 div#footer-text {
-	float: left;
-	padding-bottom: 8px;
+	display:none
 }
 
 ul, ol, dl {

@@ -1,57 +1,53 @@
 /* Default css file for jemdoc. */
 
 table#tlayout {
-	border: none;
-	border-collapse: separate;
-	background: white;
+    border: none;
+    border-collapse: separate;
+    background: white;
 }
 
 body {
-	background-repeat:no-repeat;
-	background-position:left top;	
+	background: white;
 	font-family: Georgia, serif;
 	padding-bottom: 8px;
 	margin: 0;
 }
 
 #layout-menu {
-	background: #faf9fc;
+	background: #f6f6f6;
 	border: 1px solid #dddddd;
 	padding-top: 0.5em;
 	padding-left: 8px;
-	padding-right: 28px;
-	font-size: 1.1em;
-	white-space: nowrap;
-	text-align: left;
-	vertical-align: top;
+	padding-right: 8px;
+	font-size: 1.0em;
 	width: auto;
-
+	white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
 }
 
 #layout-menu td {
 	background: #f4f4f4;
-	vertical-align: top;
+    vertical-align: top;
 }
 
 #layout-content {
 	padding-top: 0.0em;
 	padding-left: 1.0em;
 	padding-right: 1.0em;
-	border: none;
-	background-image: url(network-alpha 0.png);
-	text-align: left;
-	vertical-align: top;
-	width: 1500px;
-
+    border: none;
+    background: white;
+    text-align: left;
+    vertical-align: top;
 }
 
 #layout-menu a {
-	line-height: 2em;
+	line-height: 1.5em;
 	margin-left: 0.5em;
 }
 
 tt {
-	background: #ffffdd;
+    background: #ffffdd;
 }
 
 pre, tt {
@@ -83,10 +79,9 @@ a:hover {
 div.menu-category {
 	border-bottom: 1px solid gray;
 	margin-top: 0.8em;
-	padding-top: 0.6em;
-	padding-bottom: 0.5em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
 	font-weight: bold;
-	font-size: 1.2em;
 }
 
 div.menu-item {
@@ -122,7 +117,7 @@ strong {
 
 
 h1, h2, h3 {
-	color: #36578d;
+	color: #527bbd;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
@@ -141,7 +136,7 @@ h2 {
 }
 
 h2 + h3 {
-	padding-top: 0.2em;
+    padding-top: 0.2em;
 }
 
 h3 {
@@ -162,15 +157,20 @@ pre {
 }
 
 div#footer {
-	display:none
+	font-size: small;
+	border-top: 1px solid #c0c0c0;
+	padding-top: 0.1em;
+	margin-top: 4.0em;
+	color: #c0c0c0;
 }
 
 div#footer a {
-	display:none
+	color: #80a0b0;
 }
 
 div#footer-text {
-	display:none
+	float: left;
+	padding-bottom: 8px;
 }
 
 ul, ol, dl {
@@ -250,7 +250,7 @@ div.blockcontent {
 }
 
 div.infoblock > div.blockcontent {
-	background: #faf9fc;
+	background: #ffffee;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
@@ -297,10 +297,7 @@ span.comment, span.comment > *, span.string, span.string > * {
 }
 
 @media print {
-	#layout-menu {
-		display: none;
-	}
-
+	#layout-menu { display: none; }
 }
 
 #fwtitle {
@@ -339,32 +336,32 @@ img.eqwl {
 }
 
 table {
-	border: 2px solid black;
-	border-collapse: collapse;
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 
 td {
-	padding: 2px;
-	padding-left: 0.5em;
-	padding-right: 0.5em;
-	text-align: center;
-	border: 1px solid gray;
+    padding: 2px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    border: 1px solid gray;
 }
 
 table + table {
-	margin-top: 1em;
+    margin-top: 1em;
 }
 
 tr.heading {
-	font-weight: bold;
-	border-bottom: 2px solid black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
 }
 
 img {
-	border: none;
+    border: none;
 }
 
 table.imgtable, table.imgtable td {
-	border: none;
-	text-align: left;
-}
+    border: none;
+    text-align: left;
+}m
