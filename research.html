@@ -3,9 +3,56 @@
 <link rel="stylesheet" href="jemdoc-empty.css" type="text/css" />
 <style>
   .content {
-  margin-top: 200px;
+  margin-top: 100px;
+  }
+   /* --- Collapsible (details/summary) styles --- */
+  details { margin: .2rem 0; }
+  details summary {
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;           /* hide default marker in Firefox */
+  }
+  /* hide default marker in Chromium-based browsers */
+  details summary::-webkit-details-marker { display: none; }
+  /* custom triangle */
+  details summary::before {
+    content: "▶";              /* right‑facing triangle */
+    display: inline-block;
+    margin-right: 0.4rem;
+    transition: transform 0.2s ease;
+  }
+  details[open] summary::before {
+    transform: rotate(90deg);   /* points downward when open */
+  }
+
+    .student-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 0px 40px;
+    justify-items: center;
+    align-items: start;
+    margin-top: -0.2rem;
+  }
+  .student-card {
+    text-align: center;
+    line-height: 1.25;
+  }
+  .student-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;   /* circle crop; use hexagon if you prefer */
+    object-fit: cover;
+  }
+  .student-card figcaption {
+    margin-top: 0rem;
+    font-size: 0.95rem;
+  }
+  .student-card strong {
+    display: block;
+    font-weight: 600;
   }
 </style>
+<title> Yian Yin's homepage </title>
 <div style="width: 1200px; margin: 0 auto; overflow: hidden;">
 <div style="float: left; width: 85%;"></div>
 <div style="float: right; width: 15%;"></div>
@@ -16,79 +63,149 @@
         <div id="header">
               <div id="toptitle">
 <h1 class="a">Yian Yin</h1>
-<h5 align="left">Computational Social Scientist</h5>
+<h5 align="left">Computational Social Scientist at Cornell University</h5>
 </div>
                   <div id="website-title" class="topnav">
                   <ul id="navbar" class="a">
-                    <li class="a"><a href="index.html"><font size=4.5><b>About me</b></font></a></li>
-                    <li class="a"><a class="active" href="research.html"><font size=4.5><b>Research</b></font></a></li>
+                    <li class="a"><a href="index.html"><font size=4.5><b>About</b></font></a></li>
+                    <li class="a"><a class="active" href="research.html"><font size=4.5><b>Group</b></font></a></li>
                     <li class="a"><a href="publication.html"><font size=4.5><b>Publications</b></font></a></li>
-                    <li class="a"><a href="media.html"><font size=4.5><b>Media coverage</b></font></a></li>
+                    <li class="a"><a chref="media.html"><font size=4.5><b>Media</b></font></a></li>
                     <li class="a"><a href="CV-Yian Yin.pdf"><font size=4.5><b>CV</b></font></a></li>
                   </ul>
               </div>
           </section>
         </div>
-                    <br/>
-<b><font size=4>Computational Social Science, Science of Science and Innovation, Complex System Modeling</font></b>
-
       </div>
+                    <br/>
 <div class="content">
-<!-- <table class="imgtable"><tr><td>
-<img src="wordle-long.png" alt="wordle" width="1050px" height="310px" />&nbsp;</td>
-<td align="left"></td></tr></table> -->
-<p>My research examines <i>how individual, social, and environmental processes independently and jointly promote (or inhibit) scientific progress and innovation achievements</i>. In my dissertation, I have applied and developed a wide range of computational tools to help us better understand (1) how successful innovations emerge from repeated failures, (2) how scientific careers unfold with social and environmental changes, and (3) how successful ideas in science interact with broader socio-economic institutions. This research agenda is only possible because of the increasing availability of large-scale datasets and the increasingly sophisticated computational tools and capabilities. Together, they offer an unprecedented opportunity to understand the fundamental dynamics and uncertainties underlying the inner-workings of science, innovation, and other socio-economic institutions. By embracing approaches from artificial intelligence and complexity sciences to sociology and economics, results from my research program not only improve our ability to understand and facilitate scientific progress and breakthroughs, but also have implications for entrepreneurship and sustainable technological and business innovation.
-</p><p>
-As a <i>computational social scientist</i>, I have also used science and innovation as a powerful lens to examine broader processes and outcomes in human society. My research has yielded a range of generalizable insights that are relevant to a variety of complex social processes, from artistic and cultural productions to public policy, from media attention to market competition to human conflict. </p>
+<p> We seek to understand the <b>fundamental dynamics, regularities, and uncertainties of science and innovation</b>. By blending approaches from data and complexity sciences to sociology and economics, we examine questions such as <i>when</i> breakthroughs happen, <i>who</i> makes them, and <i>why</i> some ideas take off while others fail. This research agenda not only improves our ability to forecast and accelerate scientific progress, but also sheds light on broader phenomena in complex social systems, from artistic and cultural productions to public policy, from media attention to market competition to human conflict. </p> <p> 
 
-<h2>Prospective students / postdocs</h2>
+If you are interested in working with us:
+<details>
+          <summary>PhD applicants</summary>
+          <p>
+We are looking for motivated PhD student(s) who have strong interest in pursuing research careers in the areas of Network Science, Data Science, and Computational Social Science. If you are interested, apply to our PhD program in <a href="https://infosci.cornell.edu/phd/admissions" target="_blank">Cornell Information Science</a>. Please feel free to email me (yy994 [at] cornell.edu) your CV with subject heading <em>(your name) — PhD</em> when you apply, so that I can make sure to review your application materials.</p>
+        </details>
+        <details>
+          <summary>Postdoc opening</summary>
+          <p>We currently have one open position for Postdoctoral Fellow. The successful candidate must hold a PhD or expected PhD in Computational Social Science, Applied Mathematics, Physics, Computer Science, Economics, or a closely related field by the start of the position. Interested candidates must submit to Yian Yin (yy994 [at] cornell.edu) with subject heading <em>(your name) — Postdoc</em>, containing: 1) cover letter, describing your interest in and qualifications for this position; 2) CV (including publications list); 3) the name and contact information of three references.</p>
+          <p>We are currently focused on problems in science and innovation, but are also broadly interested in a variety of complex social systems, such as social networks, human dynamics, and cultural productions. Interested candidates are also strongly recommended to apply to the positions at the <a href="https://datasciencecenter.cornell.edu/professorship-program/research-assistant-professors-application-info/" target="_blank">Cornell Center for Data Science for Enterprise &amp; Society</a> and mention me as your faculty advisor.</p>
+        </details>
+        <details>
+          <summary>Research opportunities for Cornell students</summary>
+          <p>If you are an undergraduate/graduate student at Cornell and interested in working with us, please feel free to email me (yy994 [at] cornell.edu) your CV with subject heading <em>(your name) — Cornell undergraduate/graduate RA</em>, and mention your training and experience in data science and network analysis. <strong>Given the complexity of our project, we expect you to commit to at least 6 months and 10 hours per week.</strong></p>
+        </details>
+
+
+<h2>Group members</h2>
+  <div class="student-grid">
+    <!-- Repeat <figure> blocks as needed -->
+
+
+    <figure class="student-card">
+      <img src="photos/carrie.jpg" alt="Bob Bar portrait" />
+      <figcaption>
+        <strong><a href="https://www.linkedin.com/in/carriew19/">Carrie Wang</a></strong>
+        PhD student
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/zhenyue.jpg" alt="Bob Bar portrait" />
+      <figcaption>
+        <strong><a href="https://zzhenyue.github.io/">Zhenyue Zhao</a></strong>
+        PhD student
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/firry.jpg" alt="Charlie Baz portrait" />
+      <figcaption>
+        <strong><a href="https://firryyang.github.io/">Yangfanyu Yang</a></strong>
+        PhD student
+      </figcaption>
+    </figure>
+
+     <figure class="student-card">
+      <img src="photos/keigo.jpg" alt="Alice Foo portrait" />
+      <figcaption>
+        <strong><a href="https://keygoksmg.github.io/">Keigo Kusumegi</a></strong>
+        PhD student
+      </figcaption>
+    </figure>
+
+     <figure class="student-card">
+      <img src="photos/bingsong.jpg" alt="Charlie Baz portrait" />
+      <figcaption>
+        <strong><a href="https://www.linkedin.com/in/bingsongl/">Bingsong Li</a></strong>
+        Predoctoral fellow
+      </figcaption>
+    </figure>
+  </div>
+
+<h2>Alumni</h2>
+  <div class="student-grid">
+
+    <figure class="student-card">
+      <img src="photos/simon.jpeg" alt="Bob Bar portrait" />
+      <figcaption>
+        <strong><a href="">Šimon Trlifaj</a></strong>
+        Fulbright scholar</br>
+      </figcaption>
+    </figure>
+
+  <figure class="student-card">
+      <img src="photos/xinyu.jpg" alt="Charlie Baz portrait" />
+      <figcaption>
+        <strong><a href="https://youngxinyu1802.github.io/">Xinyu Yang</a></strong>
+        Graduate RA
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/qianyi.jpeg" alt="Charlie Baz portrait" />
+      <figcaption>
+        <strong><a href="https://www.linkedin.com/in/qianyi-shen/">Qianyi Shen</a></strong>
+        Graduate RA</br>⇒ UVA data sci
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/joseph.jpg" alt="Charlie Baz portrait" />
+      <figcaption>
+        <strong><a href="www.linkedin.com/in/josephymliu.">Joseph Liu</a></strong>
+        Undergraduate RA</br>⇒ UIUC biology
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/gaveal.jpg" alt="Charlie Baz portrait" />
+      <figcaption>
+        <strong><a href="https://www.linkedin.com/in/gaveal-fan-4ba732194/">Gaveal Fan</a></strong>
+        Undergraduate RA</br>⇒ Berkeley Haas
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/Blank.png" alt="Bob Bar portrait" />
+      <figcaption>
+        <strong><a href="">Flavia Jiang</a></strong>
+        Undergraduate RA</br>⇒ UChicago data sci
+      </figcaption>
+    </figure>
+
+    <figure class="student-card">
+      <img src="photos/alex.jpg" alt="Bob Bar portrait" />
+      <figcaption>
+        <strong><a href="">Jie Yang</a></strong>
+        Visiting scholar</br>
+      </figcaption>
+    </figure>
+
+</div>
+
 </br>
-Thank you for your interest in working with me! Our group currently has a number of fundamental projects at the boundary of network science and computational social science, including science of science and innovation, social networks, human dynamics, and mathematical and/or computational methods in complex social systems. 
-
-<ul>
-<li><p><b>PhD applicants</b><br />
-We are seeking for motivated PhD student(s) who have strong interest in pursuing research careers in the areas of Network Science, Data Science, and Computational Social Science. If you are interested, apply to our PhD program in <a href="https://infosci.cornell.edu/phd/admissions" target=&ldquo;blank&rdquo;>Cornell Information Science</a>. Please feel free to email me (yy994 [at] cornell.edu) your CV with subject heading [(your name) -- PhD] when you apply, so that I can make sure to review your application materials.
-<br /></br>
-
-<li><p><b>Cornell student interested in working with us?</b><br />
-If you are an undergraduate/graduate student at Cornell and interested in working with us, please feel free to email me (yy994 [at] cornell.edu) your CV with subject heading [(your name) -- Cornell undergraduate/graduate RA], and mention your training and experience in data science and network analysis. <b>Given the complexity of our project, we expect you to commit to at least 6 months and 10 hours per week.</b>
-
-<br /></br>
-
-<li><p><b>Postdoc opening</b><br />
-We currently have one open position for Postdoctoral Fellow. We are currently focused on problems in science and innovation, but are also broadly interested in a variety of complex social systems, such as social networks, human dynamics, and cultural productions. Successful applicants are expected to have a strong background in one or more of the aforementioned areas. Excellent organizational and interpersonal skills, along with a stated interest in social and computational sciences, are essential. Hands-on experience with large-scale datasets and network modeling is a strong plus. </br></br>
-
-The successful candidate must hold a PhD or expected PhD in Computational Social Science, Applied Mathematics, Physics, Computer Science, Economics, or a closely related field by the start of the position. Interested candidates must submit to Yian Yin (yy994 [at] cornell.edu) with subject heading [(your name) -- Postdoc], containing: 1) cover letter, describing your interest in and qualifications for this position; 2) CV (including publications list); 3) the name and contact information of three references.<br/></br>
-
-Interested candidates are also strongly recommended to apply to the <a href="https://datasciencecenter.cornell.edu/professorship-program/research-assistant-professors-application-info/" target=&ldquo;blank&rdquo;> Research Assistant Professor at Cornell Center for Data Science for Enterprise & Society</a> and mention me as your faculty advisor.<br/></br>
-
-<li><p><b>Visiting scholar Opportunities</b><br />
-Positions for visiting scholars are available at a limited basis. If you are interested in visiting us, please email me (yy994 [at] cornell.edu) 1) your CV; and 2) a brief introduction about your goal and research interest with subject heading [(your name) -- Visiting Scholar].
-<br /></br>
-<!-- <li><p><b>Research Opportunities for Cornell students</b><br />
-If you are already at Cornell, feel free to email me to set up a meeting. I am happy to talk with you to explore research topics to work on and potential fit to our group.</p> -->
-</li>
-</ul>
-</div>
-
-
-<h2>Research topics</h2>
-<ul>
-<li><p><b>The tipping point between failure and success</b><br />
-Current research on science and innovation has mainly focused on data of published papers, granted patents, or released products, implying that existing insights are limited to ideas, individuals, or teams that have succeeded in the first place. Yet, most innovations fail, sometimes in a speculative manner. But our knowledge of why, how, and when failures lead to eventual victory (or defeat) remains limited. In a recent paper published in <i>Nature</i>, I develop a new empirical and theoretical basis to advance our quantitative understanding of failures. By analyzing three large-scale datasets of repeated attempts by NIH investigators, serial entrepreneurs, and terrorist organizations, this paper probes a simple yet fundamental question: how do we go from failure to success?</p>
-</li>
-</ul>
-<ul>
-<li><p><b>Production and recognition of successful ideas in individual careers</b><br />
-The rapid growth of science and its increasing complexity have created unprecedented opportunities and challenges for understanding and managing the scientific enterprise. Understanding the key mechanisms underlying career lifecycles carries growing importance for identifying and nurturing talents across a diverse range of domains. My research in this direction has focused on understanding both general patterns governing individual careers and important change processes frequently occurring within a career. </p>
-</li>
-</ul>
-<ul>
-<li><p><b>Beyond science: A broader definition of impact</b><br />
-The bulk of studies on science have focused within the scientific ecosystem. Yet we know relatively little about their impact beyond the ivory tower. Indeed, science has long been described as a social institution that interacts with many other aspects of human society, which affects our ability to confront some of today’s biggest challenges – from the pandemic to climate change, from fake news to privacy and security. Hence there is an urgent need to understand the role and impact of science outside science – in the halls of government, public perceptions, marketplace applications, and more.</p>
-</li>
-</ul>
-</div>
 <div id="footer">
 <div id="footer-text">
 Page generated 2021-05-29 21:04:15 CDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.

@@ -129,7 +129,7 @@ strong {
 }
 
 
-h1, h2, h3 {
+h1, h3 {
 	color: #36578d;
 	margin-top: 0.2em;
 	margin-bottom: 0.2em;
@@ -139,6 +139,17 @@ h1, h2, h3 {
 	padding-bottom: 0.5em;
 	border-bottom: 1px solid #aaaaaa;
 }
+
+h2 {
+	color: #5d6674;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	padding-bottom: 0em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #aaaaaa;
+} 
 
 h1 {
 	font-size: 165%;
@@ -433,8 +444,8 @@ table.imgtable, table.imgtable td {
   }
   .topnav{
   background-color: #efefef;  
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 0px;
+  margin-right: 0px;
   }
   .topnav li a {
   display: inline-block;
@@ -477,4 +488,42 @@ table.imgtable, table.imgtable td {
   }
   .fixed-footer{
   bottom: 0;
+  }
+
+#header{
+  display:flex;                 /* title on the left, nav on the right           */
+  justify-content:space-between;
+  align-items:flex-start;       /* top‑align title and nav                       */
+}
+
+.topnav{                        /* wrapper that holds <ul id="navbar">           */
+  width:auto !important;        /* was 80%; letting it size to its content       */
+  margin-left:auto;             /* pushes box to the far right inside #header    */
+}
+
+li.a{float:none;}               /* stop floating menu items – flex will line them*/
+#navbar{
+  display:flex;                 /* keep items in a single row                    */
+  gap:2rem;                     /* breathing room between links                  */
+  margin:0; padding:0; list-style:none;
+}
+
+#header{
+    display:flex;              /* lay out children in one row            */
+    justify-content:space-between; /* push the navbar to the far right   */
+    align-items:center;        /* vertically centre the two blocks        */
+  }
+
+  /* Navbar styling */
+  #website-title{              /* the <div class="topnav"> wrapper        */
+    margin-left:auto;          /* safety: ensures it hugs the right side  */
+  }
+  #navbar{                     /* the <ul> itself                         */
+    gap:0px;                  /* space between menu items                */
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  #navbar li{                  /* keep items on one line                  */
+    display:inline-block;
   }
