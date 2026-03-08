@@ -49,7 +49,9 @@ body {
 	border: none;
 	text-align: left;
 	vertical-align: top;
-	width: 1500px;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
 
 }
 
@@ -405,6 +407,15 @@ tr.heading {
 
 img {
 	border: none;
+	max-width: 100%;
+	height: auto;
+}
+
+/* Circle avatars must not be distorted — global max-width would shrink width
+   but leave height fixed, turning circles into ovals */
+.avatar-circle,
+.student-card img {
+	max-width: none;
 }
 
 table.imgtable, table.imgtable td {
@@ -481,7 +492,9 @@ table.imgtable, table.imgtable td {
   .fixed-header, .fixed-footer{
   position: fixed;
   background-color: white;
-  width: 1200px;       
+  width: 100%;
+  max-width: 1200px;
+  box-sizing: border-box;
   }
   .fixed-header{
   top: 0;
@@ -527,3 +540,34 @@ li.a{float:none;}               /* stop floating menu items – flex will line t
   #navbar li{                  /* keep items on one line                  */
     display:inline-block;
   }
+
+/* ── Mobile Responsive ── */
+@media (max-width: 768px) {
+  /* Stack name/title above nav links */
+  #header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+  #website-title {
+    margin-left: 0;
+    width: 100%;
+  }
+  /* Let nav links wrap instead of overflow */
+  #navbar {
+    flex-wrap: wrap;
+  }
+  #navbar li {
+    display: inline-block;
+  }
+  /* Tighter padding on nav links for mobile */
+  .topnav li a {
+    padding: 5px 12px;
+  }
+  /* Publication detail images: never overflow screen */
+  table.imgtable img {
+    width: auto !important;
+    max-width: 100%;
+    height: auto !important;
+  }
+}
