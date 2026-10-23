@@ -7,6 +7,38 @@
 .content {
   margin-top: 150px;
   }
+  /* Keep publication figures readable without distorting their proportions. */
+  .content table.imgtable {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .content table.imgtable tbody {
+    display: block;
+  }
+  .content table.imgtable tr {
+    display: grid;
+    grid-template-columns: minmax(0, 42%) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: start;
+  }
+  .content table.imgtable td {
+    display: block;
+    min-width: 0;
+    padding: 0;
+  }
+  .content table.imgtable img {
+    display: block;
+    width: 100% !important;
+    max-width: 480px;
+    height: auto !important;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .content table.imgtable tr {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 1rem;
+    }
+  }
 </style>
 <title> Yian Yin's publications </title>
 <div style="max-width: 1200px; margin: 0 auto; overflow: hidden;">
